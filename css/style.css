@@ -15,6 +15,15 @@ body{
     margin-bottom: 10%;
 }
 
+h1{
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+strong{
+    color: #CBA135;
+}
+
 
 #logo{
     height: 70px;
@@ -30,20 +39,26 @@ body{
 
 .navegation{
     font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
     word-spacing: 20px;
     float: right;
     margin-right: 50px;
     margin-top: -50px;
-
 }
 
-a{
+#item{
     color: #ffffff;
     text-decoration: none;
     padding: 25px;
+    font-weight: bold;
 }
 
-a:hover{
+#contacts{
+    text-decoration: none;
+}
+
+
+#item:hover{
     background-color: rgb(200,200,200);
 }
 
@@ -55,7 +70,7 @@ a:hover{
 
 .photo-perfil{
     float: right;
-    margin-top: -170px;
+    margin-top: -330px;
     margin-right: 260px;
     background-color:#1a2238;
     border-radius: 50%; 
