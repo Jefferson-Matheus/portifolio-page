@@ -12,6 +12,7 @@ body{
     background-color: #001f3f;
     width: 100%;
     height: 80px;
+    margin-bottom: 10%;
 }
 
 
@@ -44,4 +45,24 @@ a{
 
 a:hover{
     background-color: rgb(200,200,200);
+}
+
+.about{
+    width: 650px;
+    padding: 0 0 0 60px;
+    font-size: 18px;
+}
+
+.photo-perfil{
+    float: right;
+    margin-top: -170px;
+    margin-right: 260px;
+    background-color:#1a2238;
+    border-radius: 50%; 
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#perfil{
+    border-radius: 50%;
 }
