@@ -10,10 +10,16 @@ body{
 }
 
 .header-page{
+    display: flex;
     background-color: #001f3f;
     width: 100%;
     height: 80px;
-    margin-bottom: 10%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #logo{
@@ -25,9 +31,6 @@ body{
 .navegation-page{
     font-weight: bold;
     font-size: 20px;
-    /*font-family: 'Courier New', Courier, monospace;*/
-    float: right;
-    margin: 30px 80px 0 0;
 }
 
 #item{
@@ -40,14 +43,21 @@ body{
     background-color:rgb(230,230,230) ;
 }
 
-.content{
-    width: 50%;
-    margin-left: 50px;
+.home{
+    display: flex;
+    width: 100%;
+    margin-top: 15%;
+    justify-content: space-between;
 }
 
-.title{
+.home-content{
+    width: 40%;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.home-title{
     font-size: 50px;
-    /*font-family: 'Courier New', Courier, monospace;*/
 }
 
 .destaque{
@@ -60,54 +70,63 @@ body{
 }
 
 
-.aside-photo-page{
-    float: right;
-    margin-top: -260px;
-    margin-right: 160px;
+.home-img{
+    display: flex;
+    width: 285px;
+    height: 285px;
     background-color: #001f3f;
-    text-align: center;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
     border-radius: 50%;
 }
 
 #perfil{
     border-radius: 50%;
+    width: 260px;
+    height: 260px;
 }
 
 .about{
+    display: flex;
     width: 100%;
     height: 450px;
-    /*background-color: #FFDB58;*/
-    background-color: #FFF4CC;
-    margin-top: 230px;
-    text-align: center;
+    background-color: #FDF2C3;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-.about-title{
-    font-size: 50px;
-    padding: 30px 0 60px 0;
+.about-me-title{
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.about-conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#about-photo{
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
 }
 
 .about-me-conteiner{
+    font-size: 20px;
     width: 50%;
-    margin-left: 50%;
-    margin-top: -290px;
+    color: #333333;
+    font-weight: bold;
 }
 
-.about-text{
-    font-size: 18px;
+strong{
+    color: #1E3A5F;
 }
 
-.about-perfil-conteiner{
-    margin-left: -400px;
-}
 
-.about-me-tile{
-    padding-bottom: 15px;
-}
 
-.about-perfil{
-    width: 280px;
-    height: 280px;
-}
 
