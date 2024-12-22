@@ -154,6 +154,7 @@ strong{
     gap: 50px;
     color: #F8F9FA;
     margin-top: 80px;
+
 }
 
 .content-skills{
@@ -197,6 +198,14 @@ strong{
     width: 80px;
     height: 80px;
 }
+
+.conctacs{
+    width: 100%;
+    height: 400px;
+    background-color: #39FF14;
+    margin-top: 80px;
+}
+
 
 
 
