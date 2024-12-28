@@ -155,6 +155,7 @@ strong{
     color: #F8F9FA;
     margin-top: 80px;
     height: 750px;
+    scroll-margin-top: 50px;
 }
 
 .content-skills{
@@ -210,6 +211,7 @@ strong{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    scroll-margin-top: 100px;
 }
 
 #contact-image{
@@ -222,6 +224,21 @@ strong{
     font-weight: bold;
     font-size: 35px;
     padding-top: 10px;
+}
+
+.footer-page{
+    width: 100%;
+    background-color: #001f3f;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: #ffffff;
+}
+
+.footer-page h2{
+    padding-top: 25px;
 }
 
 
